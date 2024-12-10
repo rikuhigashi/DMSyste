@@ -13,7 +13,9 @@ element-plus ---https://element-plus.org/zh-CN/component/overview.html
 
 tailwindcss ---https://tailwindcss.com/docs/guides/vite#vue
 
----------------其他东西看不懂怎么使用 请使用element-plus！！！--------------- ---------------其他东西看不懂怎么使用 请使用element-plus！！！--------------- ---------------其他东西看不懂怎么使用 请使用element-plus！！！---------------
+---------------其他东西看不懂怎么使用 请使用element-plus！！！--------------- 
+---------------其他东西看不懂怎么使用 请使用element-plus！！！--------------- 
+---------------其他东西看不懂怎么使用 请使用element-plus！！！---------------
 
 如果需要使用tailwindcss请在vscord（估计idea也有-不确定）中下载插件Tailwind CSS IntelliSense 该插件功能只是能查看到Tailwind CSS 预设的css
 
