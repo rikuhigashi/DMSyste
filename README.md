@@ -24,7 +24,9 @@ tailwindcss ---https://tailwindcss.com/docs/guides/vite#vue
 后端使用了MyBatis-Plus、springboot3、mysql
 
 软件架构
-jdk23 -----https://www.oracle.com/java/technologies/downloads/?er=221886 node22 -----https://nodejs.org/en/download/package-manager
+vite+vue3+ts+tailwindcss+daisyui+element-plus+pinia
+jdk23 -----https://www.oracle.com/java/technologies/downloads/?er=221886
+node22 -----https://nodejs.org/en/download/package-manager
 
 使用说明
 
