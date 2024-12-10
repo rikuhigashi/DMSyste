@@ -1,0 +1,44 @@
+
+//freemarker
+
+implementation 'org.springframework.boot:spring-boot-starter-freemarker'
+//generator
+implementation 'com.baomidou:mybatis-plus-generator: '
+官网https://baomidou.com/getting-started/
+implementation 'com.baomidou:mybatis-plus-spring-boot3-starter: '  
+
+--------------------------以上为必须导入依赖------------------------------------
+
+implementation 'org.springdoc:springdoc-openapi-ui:x.x.x'   --代码生成器用
+
+
+-------------------------------------------------------------------------------
+
+ implementation 'org.springdoc:springdoc-openapi-ui:1.6.14'           --MyBatis-Plus 专注于数据库操作的简化和增强是一个后端数据访问工具，涉及到的是数据库操作和数据管理
+
+ implementation 'com.github.xiaoymin:knife4j-spring-boot-starter:4.5.0'      --Knife4j专注于 API 文档的生成和展示是一个前端展示工具，涉及到的是用户界面和文档管理    --Knife4j是在springdoc-openapi的基础上强化的，一些功能没有，如果需要时，两者一起使用 --目前没有需求
+
+
+———————————————废弃————————————————————
+
+implementation 'io.springfox:springfox-swagger2:3.0.0' ----已不更新
+implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+———————————————废弃————————————————————
+
+
+在模板中有已经过时的swagger2注释，不想更换注释使用implementation 'io.springfox:springfox-swagger2:3.0.0'
+implementation 'io.springfox:springfox-swagger-ui:3.0.0'
+
+更换新的注释使用implementation 'org.springdoc:springdoc-openapi-ui:x.x.x' 
+-------------------------------此处是注释对照表--------------------------------------------------
+@Api → @Tag
+@ApiIgnore → @Parameter(hidden = true) or @Operation(hidden = true) or @Hidden
+@ApiImplicitParam → @Parameter
+@ApiImplicitParams → @Parameters
+@ApiModel → @Schema
+@ApiModelProperty(hidden = true) → @Schema(accessMode = READ_ONLY)
+@ApiModelProperty → @Schema
+@ApiOperation(value = "foo", notes = "bar") → @Operation(summary = "foo", description = "bar")
+@ApiParam → @Parameter
+@ApiResponse(code = 404, message = "foo") → @ApiResponse(responseCode = "404", description = "foo")
+-------------------------------此处是注释对照表--------------------------------------------------
